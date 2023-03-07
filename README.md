@@ -14,7 +14,6 @@ The following command can be used to classify a text.
 
 ```bash
 
-pip install -r requirement.txt
 python main.py --text <text to be classified>
 
 ```
