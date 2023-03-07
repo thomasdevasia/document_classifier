@@ -206,3 +206,5 @@ poetry.toml
 
 # Zone identifier (Windows)
 *Zone.Identifier
+
+.vscode/
