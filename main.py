@@ -17,7 +17,7 @@ if __name__ == '__main__':
     parser.add_argument('--text', type=str, required=True)
     args = parser.parse_args()
 
-    model = torch.load('./model')
+    model = torch.load('./model.h5')
     model.eval()
 
     topic = ['Biology', 'Physics', 'Chemistry']
